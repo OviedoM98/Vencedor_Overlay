@@ -1,0 +1,36 @@
+<!-- overlay_layout.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <com.example.overlaybuttons.MovableButton
+        android:id="@+id/minusBtn"
+        android:text="-"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="4dp" />
+
+    <com.example.overlaybuttons.MovableButton
+        android:id="@+id/wifiBtn"
+        android:text="📶"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="4dp" />
+
+    <com.example.overlaybuttons.MovableButton
+        android:id="@+id/plusBtn"
+        android:text="+"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="4dp" />
+
+    <TextView
+        android:id="@+id/infoTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#FFF"
+        android:textSize="16sp"/>
+</FrameLayout>
